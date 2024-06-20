@@ -1,0 +1,23 @@
+pring:
+  datasource:
+    driver-class-name: org.h2.Driver
+server:
+  port: 9091
+spring:
+  application:
+    name: MiniProj02
+  datasource:
+    password: praveen
+    url: jdbc:h2:mem:testdb
+    username: praveen
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    show-sql: true
+plan:
+  module:
+   message:
+     Save-Success: Car Insurance Plan Saved wi d Id Value
+     save-Failure: Car Insurance Plan not Save with Id Value
